@@ -14,8 +14,10 @@
 #import "AppDelegate.h"
 #import "ALConfig.h"
 #import "ColorDefine.h"
+#import "ErrorCodeDefine.h"
+#import "ModelDefine.h"
 
-
+#import "AlertHelper.h"
 #import "ALFuncTooles.h"
 
 #import "UIView+RSAdditions.h"

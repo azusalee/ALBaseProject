@@ -55,7 +55,10 @@
  */
 + (NSString*)getDistanceString:(double)distance;
 
-
+/**
+ 获取App信息
+ */
++ (NSDictionary*)getAppInfo;
 
 /**
  *  计算两点坐标的距离(米)

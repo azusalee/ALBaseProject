@@ -1,0 +1,194 @@
+[
+    {
+        "id": 2,
+        "parent_id": 1,
+        "region_name": "北京",
+        "sort": 2
+    },
+    {
+        "id": 3,
+        "parent_id": 1,
+        "region_name": "安徽",
+        "sort": 3
+    },
+    {
+        "id": 4,
+        "parent_id": 1,
+        "region_name": "福建",
+        "sort": 4
+    },
+    {
+        "id": 5,
+        "parent_id": 1,
+        "region_name": "甘肃",
+        "sort": 5
+    },
+    {
+        "id": 6,
+        "parent_id": 1,
+        "region_name": "广东",
+        "sort": 6
+    },
+    {
+        "id": 7,
+        "parent_id": 1,
+        "region_name": "广西",
+        "sort": 7
+    },
+    {
+        "id": 8,
+        "parent_id": 1,
+        "region_name": "贵州",
+        "sort": 8
+    },
+    {
+        "id": 9,
+        "parent_id": 1,
+        "region_name": "海南",
+        "sort": 9
+    },
+    {
+        "id": 10,
+        "parent_id": 1,
+        "region_name": "河北",
+        "sort": 10
+    },
+    {
+        "id": 11,
+        "parent_id": 1,
+        "region_name": "河南",
+        "sort": 11
+    },
+    {
+        "id": 12,
+        "parent_id": 1,
+        "region_name": "黑龙江",
+        "sort": 12
+    },
+    {
+        "id": 13,
+        "parent_id": 1,
+        "region_name": "湖北",
+        "sort": 13
+    },
+    {
+        "id": 14,
+        "parent_id": 1,
+        "region_name": "湖南",
+        "sort": 14
+    },
+    {
+        "id": 15,
+        "parent_id": 1,
+        "region_name": "吉林",
+        "sort": 15
+    },
+    {
+        "id": 16,
+        "parent_id": 1,
+        "region_name": "江苏",
+        "sort": 16
+    },
+    {
+        "id": 17,
+        "parent_id": 1,
+        "region_name": "江西",
+        "sort": 17
+    },
+    {
+        "id": 18,
+        "parent_id": 1,
+        "region_name": "辽宁",
+        "sort": 18
+    },
+    {
+        "id": 19,
+        "parent_id": 1,
+        "region_name": "内蒙古",
+        "sort": 19
+    },
+    {
+        "id": 20,
+        "parent_id": 1,
+        "region_name": "宁夏",
+        "sort": 20
+    },
+    {
+        "id": 21,
+        "parent_id": 1,
+        "region_name": "青海",
+        "sort": 21
+    },
+    {
+        "id": 22,
+        "parent_id": 1,
+        "region_name": "山东",
+        "sort": 22
+    },
+    {
+        "id": 23,
+        "parent_id": 1,
+        "region_name": "山西",
+        "sort": 23
+    },
+    {
+        "id": 24,
+        "parent_id": 1,
+        "region_name": "陕西",
+        "sort": 24
+    },
+    {
+        "id": 25,
+        "parent_id": 1,
+        "region_name": "上海",
+        "sort": 25
+    },
+    {
+        "id": 26,
+        "parent_id": 1,
+        "region_name": "四川",
+        "sort": 26
+    },
+    {
+        "id": 27,
+        "parent_id": 1,
+        "region_name": "天津",
+        "sort": 27
+    },
+    {
+        "id": 28,
+        "parent_id": 1,
+        "region_name": "西藏",
+        "sort": 28
+    },
+    {
+        "id": 29,
+        "parent_id": 1,
+        "region_name": "新疆",
+        "sort": 29
+    },
+    {
+        "id": 30,
+        "parent_id": 1,
+        "region_name": "云南",
+        "sort": 30
+    },
+    {
+        "id": 31,
+        "parent_id": 1,
+        "region_name": "浙江",
+        "sort": 31
+    },
+    {
+        "id": 32,
+        "parent_id": 1,
+        "region_name": "重庆",
+        "sort": 32
+    },
+    {
+        "id": 3444,
+        "parent_id": 1,
+        "region_name": "台湾",
+        "sort": 3444
+    }
+]
