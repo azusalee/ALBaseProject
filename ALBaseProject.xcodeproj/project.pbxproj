@@ -80,6 +80,8 @@
 		04E742912015E80B00A7902C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7427E2015E80B00A7902C /* Reachability.m */; };
 		04E742922015E80B00A7902C /* stream_configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04E7427F2015E80B00A7902C /* stream_configuration.cpp */; };
 		26617CD89ABFDAA959FF3CF0 /* Pods_ALBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42577677F48993D40D03E7F /* Pods_ALBaseProject.framework */; };
+		75BDE7AE204403BF00B03434 /* LZHTabCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75BDE7AB204403BE00B03434 /* LZHTabCollectionViewController.xib */; };
+		75BDE7AF204403BF00B03434 /* LZHTabCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BDE7AD204403BF00B03434 /* LZHTabCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,6 +246,9 @@
 		04E7427E2015E80B00A7902C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		04E7427F2015E80B00A7902C /* stream_configuration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stream_configuration.cpp; sourceTree = "<group>"; };
 		04E742802015E80B00A7902C /* stream_configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_configuration.h; sourceTree = "<group>"; };
+		75BDE7AB204403BE00B03434 /* LZHTabCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHTabCollectionViewController.xib; sourceTree = "<group>"; };
+		75BDE7AC204403BF00B03434 /* LZHTabCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHTabCollectionViewController.h; sourceTree = "<group>"; };
+		75BDE7AD204403BF00B03434 /* LZHTabCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHTabCollectionViewController.m; sourceTree = "<group>"; };
 		9701E3CBA945D45B728B466C /* Pods-ALBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALBaseProject/Pods-ALBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C42577677F48993D40D03E7F /* Pods_ALBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43C9E2A727872C8E51727E5 /* Pods-ALBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALBaseProject/Pods-ALBaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -586,12 +591,23 @@
 		04EBA250200F23EC0073D765 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				75BDE7AA2044038F00B03434 /* Controller */,
 				04E741DC2015DE3E00A7902C /* View */,
 				04E741BA2015CF3A00A7902C /* Tooles */,
 				04E7418C201586C500A7902C /* ModelExtend */,
 				04E74186201583D300A7902C /* ViewExtend */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		75BDE7AA2044038F00B03434 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75BDE7AC204403BF00B03434 /* LZHTabCollectionViewController.h */,
+				75BDE7AD204403BF00B03434 /* LZHTabCollectionViewController.m */,
+				75BDE7AB204403BE00B03434 /* LZHTabCollectionViewController.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		B3CA1E39D021BFB39F36AA53 /* Pods */ = {
@@ -727,6 +743,7 @@
 				04E741DA2015DBB700A7902C /* 县区.txt in Resources */,
 				04E741D92015DBB700A7902C /* 城市.txt in Resources */,
 				04E741DB2015DBB700A7902C /* 省份.txt in Resources */,
+				75BDE7AE204403BF00B03434 /* LZHTabCollectionViewController.xib in Resources */,
 				04A6E529200DA218006256C9 /* LaunchScreen.storyboard in Resources */,
 				04E742522015E5F700A7902C /* LZHMutiSortSelectTableViewCell.xib in Resources */,
 				04A6E526200DA218006256C9 /* Assets.xcassets in Resources */,
@@ -822,6 +839,7 @@
 				04E741ED2015DE6200A7902C /* TAAbstractDotView.m in Sources */,
 				04E742812015E80B00A7902C /* audio_queue.cpp in Sources */,
 				04E741FF2015DFC200A7902C /* ALCountTextField.m in Sources */,
+				75BDE7AF204403BF00B03434 /* LZHTabCollectionViewController.m in Sources */,
 				04E7419D2015918B00A7902C /* ALFuncTooles.m in Sources */,
 				04E741D42015D9DE00A7902C /* ALLocalAreaPickerView.m in Sources */,
 				04A6E524200DA218006256C9 /* ALBaseProject.xcdatamodeld in Sources */,
